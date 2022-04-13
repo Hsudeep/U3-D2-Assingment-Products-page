@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>products</title>
+    <style>
+
+        #product_S{
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: auto;
+            gap: 10px;
+            box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        }
+        img{
+            height: 300px;
+            width: 350px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+        img:hover{
+            cursor: pointer;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        .items{
+            margin: auto;
+            text-align:justify;
+            font-size: 20px;
+        }
+        #sold{
+            margin-left: 40px;
+        }
+        button{
+            height: 30px;
+            width: 100px;
+            cursor: pointer;
+            background-color: aquamarine;
+            color: black;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html"><h1 >Prodcuts Page</h1></a>
+    <div id="counter">
+        0
+    </div>
+    <div id="product_S"></div>
+    
+</body>
+</html>
+<script src="products.js"></script>
